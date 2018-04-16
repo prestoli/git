@@ -6,3 +6,4 @@ git commit -m "描述语"             	提交文件
 git reset --hard 版本的commitID    	穿梭到指点版本
 git log					查看提交历史
 git reflog				查看命令历史
+git
