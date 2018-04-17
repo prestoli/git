@@ -1,21 +1,30 @@
-git init                     		´´½¨Ò»¸ögit¿â
-git status                   		²é¿´¹¤×÷ÇøµÄ×´Ì¬
-git diff		    				²é¿´ĞŞ¸ÄµÄÄÚÈİ
-git add ´øÀ©Õ¹ÃûµÄÎÄ¼şÃû     		×¼±¸Ìá½»µÄÎÄ¼ş
-git commit -m "ÃèÊöÓï"             	Ìá½»ÎÄ¼ş
-git reset --hard °æ±¾µÄcommitID    	´©Ëóµ½Ö¸µã°æ±¾
-git log								²é¿´Ìá½»ÀúÊ·
-git reflog							²é¿´ÃüÁîÀúÊ·
-git checkout -- ÎÄ¼şÃû  			ºóÍËÒ»²½
-git rm ÎÄ¼şÃû						É¾³ıÔİ´æÇøµÄÎÄ¼ş
-git remote add origin githubµÄsshµØÖ·       ¹ØÁªÔ¶³Ì¿â
-git push -u origin master					µÚÒ»´ÎÍÆËÍmaster·ÖÖ§µÄËùÓĞÄÚÈİ
-git push origin master						ÍÆËÍmaster·ÖÖ§µÄËùÓĞÄÚÈİ
-git clone µØÖ·								¿ËÂ¡Ô¶³Ì¿â
-git checkout -b dev							´´½¨²¢ÇĞ»»·ÖÖ§
-git branch dev								´´½¨·ÖÖ§
-git checkout dev							ÇĞ»»·ÖÖ§
-git branch									²é¿´·ÖÖ§
-git merge ·ÖÖ§Ãû							ºÏ²¢Ä³·ÖÖ§µ½µ±Ç°·ÖÖ§
-git branch -d ·ÖÖ§Ãû						É¾³ı·ÖÖ§
-È¥³ı°¡
+git init                     				åˆ›å»ºä¸€ä¸ªgitåº“
+git status                   				æŸ¥çœ‹å·¥ä½œåŒºçš„çŠ¶æ€
+git diff		    						æŸ¥çœ‹ä¿®æ”¹çš„å†…å®¹
+git add å¸¦æ‰©å±•åçš„æ–‡ä»¶å     				å‡†å¤‡æäº¤çš„æ–‡ä»¶
+git commit -m "æè¿°è¯­"             			æäº¤æ–‡ä»¶
+git reset --hard ç‰ˆæœ¬çš„commitID    			ç©¿æ¢­åˆ°æŒ‡ç‚¹ç‰ˆæœ¬
+git log										æŸ¥çœ‹æäº¤å†å²
+git reflog									æŸ¥çœ‹å‘½ä»¤å†å²
+git checkout -- æ–‡ä»¶å  					åé€€ä¸€æ­¥
+git rm æ–‡ä»¶å								åˆ é™¤æš‚å­˜åŒºçš„æ–‡ä»¶
+git remote add origin githubçš„sshåœ°å€       å…³è”è¿œç¨‹åº“
+git push -u origin master					ç¬¬ä¸€æ¬¡æ¨é€masteråˆ†æ”¯çš„æ‰€æœ‰å†…å®¹
+git push origin master						æ¨é€masteråˆ†æ”¯çš„æ‰€æœ‰å†…å®¹
+git clone åœ°å€								å…‹éš†è¿œç¨‹åº“
+git checkout -b dev							åˆ›å»ºå¹¶åˆ‡æ¢åˆ†æ”¯
+git branch dev								åˆ›å»ºåˆ†æ”¯
+git checkout dev							åˆ‡æ¢åˆ†æ”¯
+git branch									æŸ¥çœ‹åˆ†æ”¯
+git merge åˆ†æ”¯å							åˆå¹¶æŸåˆ†æ”¯åˆ°å½“å‰åˆ†æ”¯
+git branch -d åˆ†æ”¯å						åˆ é™¤åˆ†æ”¯
+git stash									å‚¨å­˜å·¥ä½œåŒºå†…å®¹
+git stash apply								æ¢å¤å·¥ä½œåŒºå†…å®¹ï¼Œä½†æ˜¯æ¢å¤åï¼Œstashå†…å®¹å¹¶ä¸åˆ é™¤
+git stash drop								åˆ é™¤å·¥ä½œåŒºå†…å®¹
+git stash pop								æ¢å¤çš„åŒæ—¶æŠŠstashå†…å®¹ä¹Ÿåˆ äº†
+git tag <name>								æ‰“æ ‡ç­¾
+git show <tagname>							çœ‹è¯´æ˜æ–‡å­—
+git push origin <tagname>					æ¨é€ä¸€ä¸ªæœ¬åœ°æ ‡ç­¾
+git push origin --tags						æ¨é€å…¨éƒ¨æœªæ¨é€è¿‡çš„æœ¬åœ°æ ‡ç­¾
+git tag -d <tagname>						åˆ é™¤ä¸€ä¸ªæœ¬åœ°æ ‡ç­¾
+git push origin :refs/tags/<tagname>		åˆ é™¤ä¸€ä¸ªè¿œç¨‹æ ‡ç­¾
