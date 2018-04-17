@@ -18,4 +18,4 @@ git checkout dev							切换分支
 git branch									查看分支
 git merge 分支名							合并某分支到当前分支
 git branch -d 分支名						删除分支
-去除
+去除啊
