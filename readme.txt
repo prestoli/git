@@ -8,3 +8,6 @@ git log								查看提交历史
 git reflog							查看命令历史
 git checkout -- 文件名  			后退一步
 git rm 文件名						删除暂存区的文件
+git remote add origin github的ssh地址       关联远程库
+git push -u origin master					第一次推送master分支的所有内容
+git push origin master						推送master分支的所有内容
